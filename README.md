@@ -2,7 +2,7 @@
 Blocking:
 - to simulate multiple servers and clients, run subsequently [MainServers](src/blocking/MainServers.java) and [MainClients](src/blocking/MainClients.java)
 - created via [Writing the Server Side of a Socket](https://docs.oracle.com/javase/tutorial/networking/sockets/clientServer.html)
-- output: (e.g. client `C1` sent message `aa`, was server by server `S1`)
+- output: (e.g. client `C1` sent message `aa`, was served by server `S1`)
 ```
 C1 response: aa sent-by-C1-echoed-by-S1
 C2 response: 10 sent-by-C2-echoed-by-S0
