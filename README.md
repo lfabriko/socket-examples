@@ -12,7 +12,7 @@ C2 response: 10 sent-by-C2-echoed-by-S0
 Nonblocking:
 - to simulate server processing multiple clients with Selector, run subsequently [MainEchoServer](src/nonblocking/MainEchoServer.java) and [MainClients](src/nonblocking/MainClients.java)
 - created via [What Is Non-blocking Socket Programming in Java?](https://www.developer.com/java/data/what-is-non-blocking-socket-programming-in-java/)
-- output: (e.g. client `C1` sent message `aa`, client `C2` sent `10`)
+- output: (messages sent by multiple clients)
 ```
 response: 10
 response: aa
